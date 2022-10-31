@@ -33,23 +33,27 @@ How to use [PlaceHolderAPI](https://www.spigotmc.org/resources/placeholderapi.62
 
 Si vous souhaitez contribuer, lisez le fichier [CONTRIBUTING.md](https://example.org) pour savoir comment le faire.
 
-## Versions
-Listez les versions ici 
-_exemple :_
-**Dernière version stable :** 5.0
-**Dernière version :** 5.1
-Liste des versions : [Cliquer pour afficher](https://github.com/your/project-name/tags)
-_(pour le lien mettez simplement l'URL de votre projets suivi de ``/tags``)_
+## Purchase
+To purchase the last plugin version, you can click on one of the links below
 
-## Auteurs
-Listez le(s) auteur(s) du projet ici !
-* **Jhon doe** _alias_ [@outout14](https://github.com/outout14)
+* **[BuiltByBit](https://builtbybit.com/)**
+* **[Spigot](https://spigotmc.com/)**
+* **[GroupeZ](https://groupez.dev/resources)**
 
-Lisez la liste des [contributeurs](https://github.com/your/project/contributors) pour voir qui à aidé au projet !
+**🌟 Last version :** 0.0.1
 
-_(pour le lien mettez simplement l'URL de votre projet suivi de ``/contirubors``)_
+
+## Autor
+The only autor of TurnMarket:
+* **[@SYRQL](https://github.com/Syrql_)**
+
+
+## Contact
+
+* My personal discord ``SYRQL#0139``
+* **[Discord Software](https://discord.gg/mK6Q2ddTcy)**
 
 ## License
 
-Ce projet est sous licence ``exemple: WTFTPL`` - voir le fichier [LICENSE.md](LICENSE.md) pour plus d'informations
+This project is using ``MIT Licence`` - [LICENSE.md](LICENSE.md) for more informations.
 
