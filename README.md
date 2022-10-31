@@ -4,7 +4,7 @@
 
 TurnMarket is a plugin that will change items at different defined times. You can buy or sell item. You can all edit the plugin in ``config.yml`` file.
 Each time the market runs, new items are selected and displayed in a menu. It is therefore possible to buy and resell objects.
-The interfaces are all modifiable, at each rotation, new items are randomly selected from the ``config.yml`` file
+The interfaces are all modifiable, at each rotation, new items are randomly selected from the ``config.yml`` file.
 
 ## Synopsis
 
