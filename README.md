@@ -31,7 +31,11 @@ How to use [PlaceHolderAPI](https://www.spigotmc.org/resources/placeholderapi.62
 
 ## Config
 
-Si vous souhaitez contribuer, lisez le fichier [CONTRIBUTING.md](https://example.org) pour savoir comment le faire.
+> * You can manually add in ``config.yml`` file multiple addons for use better the plugin.
+> 
+**Shop Inventory**
+
+> * ``` COMMAND ``` - 
 
 ## Purchase
 To purchase the last plugin version, you can click on one of the links below
