@@ -3,6 +3,8 @@
 [![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
 
 TurnMarket is a plugin that will change items at different defined times. You can buy or sell item. You can all edit the plugin in ``config.yml`` file.
+Each time the market runs, new items are selected and displayed in a menu. It is therefore possible to buy and resell objects.
+The interfaces are all modifiable, at each rotation, new items are randomly selected from the ``config.yml`` file
 
 ## Synopsis
 
@@ -68,6 +70,40 @@ How to use [PlaceHolderAPI](https://www.spigotmc.org/resources/placeholderapi.62
         SELL: 10 (Item sell price. Set -1 value if it's not possible to sell)
         QUANTITY: 1 (Item quantity)
 ```
+
+## Increment Items
+
+```java
+
+    1:
+      NAME: "&a(+) &eAdd &6&l1"
+      QUANTITY: 1
+      MATERIAL: "INK_SACK"
+      MATERIAL-ID: 10
+      SLOT: 15
+      TYPE: "I_ADD"
+
+```
+## Decrement Items
+
+```java
+
+    4:
+      NAME: "&c(-) &eSet to &6&l1"
+      QUANTITY: 1
+      MATERIAL: "INK_SACK"
+      MATERIAL-ID: 1
+      SLOT: 29
+      TYPE: "D_SET"
+      
+```
+
+### Config keys
+
+* ``` I_ADD ``` Increment item by using ``QUANTITY``
+* ``` I_SET ``` Set item amount by using ``QUANTITY``
+* ``` D_REMOVE ``` Decrement item by using ``QUANTITY``
+* ``` D_SET ``` Set item amount by using ``QUANTITY``
 
 ### Custom config key
 
