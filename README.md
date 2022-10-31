@@ -29,7 +29,7 @@ How to use [PlaceHolderAPI](https://www.spigotmc.org/resources/placeholderapi.62
 * ``%turnmarket_shop_time-left/<shopName>%`` -  Replace ``<shopName>`` by your custom shop name. Return the timeleft before next rotation
 * ``%turnmarket_shop_next-rotate/<shopName>%`` -  Replace ``<shopName>`` by your custom shop name. Return the time of the next rotation
 
-## Contributing
+## Config
 
 Si vous souhaitez contribuer, lisez le fichier [CONTRIBUTING.md](https://example.org) pour savoir comment le faire.
 
