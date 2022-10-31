@@ -55,5 +55,5 @@ The only autor of TurnMarket:
 
 ## License
 
-This project is using ``MIT Licence`` - [LICENSE.md](LICENSE.md) for more informations.
+This project is using ``MIT Licence`` - [LICENSE.md](LICENSE) for more informations.
 
