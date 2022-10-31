@@ -37,20 +37,41 @@ How to use [PlaceHolderAPI](https://www.spigotmc.org/resources/placeholderapi.62
 
 ### Default config keys
 
-> * ``` TURN-TIME ``` - Scheduler feature (Add in your config multiple rotate time. _For example:_ ``"08:00"``)
-> * ``` MAX-ITEMS ``` - Max display items on inventory (_Default:_ ``5``)
-> * ``` NAME ``` - Shop name (_Example:_ ``"farm"``)
-> * ``` DISPLAY-NAME ``` - Shop display name (_Example:_ ``"&7[&e⛃&7] &e&lFarm"``)
-> * ``` SIZE ``` - Inventory size (_Default:_ ``5``)
-> * ``` ALLOWED-SLOT ``` - Allowed slot in inventory
-> * Example
-> ```ALLOWED-SLOT:
+* ``` TURN-TIME ``` - Scheduler feature (Add in your config multiple rotate time. _For example:_ ``"08:00"``)
+* ``` MAX-ITEMS ``` - Max display items on inventory (_Default:_ ``5``)
+* ``` NAME ``` - Shop name (_Example:_ ``"farm"``)
+* ``` DISPLAY-NAME ``` - Shop display name (_Example:_ ``"&7[&e⛃&7] &e&lFarm"``)
+* ``` SIZE ``` - Inventory size (_Default:_ ``5``)
+* ``` ALLOWED-SLOT ``` - Allowed slot in inventory (where item will be place)
+
+```java    
+    ALLOWED-SLOT:
       - 20
       - 21
       - 22
       - 23
       - 24
       - 25
+```
+
+### Items
+
+```java
+      1:
+        MATERIAL: "STONE" (Item type)
+        NAME: "&7Stone" (Item name)
+        LORE: (Item lore)
+          - " "
+          - "&aBuy: &e%buy-price% &a(Right-Click)"
+          - "&cSell: &e%sell-price% &c(Left-click)"
+        PRICE: 50 (Item buy price. Set -1 value if it's not possible to buy)
+        SELL: 10 (Item sell price. Set -1 value if it's not possible to sell)
+        QUANTITY: 1 (Item quantity)
+```
+
+### Custom config key
+
+* ``` COMMAND ``` Add this key in Item section _Example:_ ``COMMAND: "give %player% diamond %amount%"``
 
 ## Purchase
 To purchase the last plugin version, you can click on one of the links below
