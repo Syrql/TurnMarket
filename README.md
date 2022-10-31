@@ -8,36 +8,26 @@ TurnMarket is a plugin that will change items at different defined times. You ca
 
 To start, you have to use your brain to read this documentation.
 
-### Requirement
+### Requirements
 
-You have to follow instructions below.
+You have to follow the instructions below.
 
-- Programme 1
-- Programme 2
-- etc...
+- 💸 Economy plugin (Vault) _(depend)_
+- 💙 PlaceHolderAPI _(softdepend)_
 
-### Installation
+### Plugin Installation
 
-Les étapes pour installer votre programme....
+After buying the plugin, just put into your plugins folder the .jar, and dont forget to use an Economy plugin.
 
-Dites ce qu'il faut faire...
+_Config_: You can easily edit Config by using ``config.yml`` file [...]
 
-_exemple_: Executez la commande ``telnet mapscii.me`` pour commencer ensuite [...]
+## PlaceHolderAPI
 
+How to use [PlaceHolderAPI](https://www.spigotmc.org/resources/placeholderapi.6245) implementation?
 
-Ensuite vous pouvez montrer ce que vous obtenez au final...
-
-## Démarrage
-
-Dites comment faire pour lancer votre projet
-
-## Fabriqué avec
-
-Entrez les programmes/logiciels/ressources que vous avez utilisé pour développer votre projet
-
-_exemples :_
-* [Materialize.css](http://materializecss.com) - Framework CSS (front-end)
-* [Atom](https://atom.io/) - Editeur de textes
+* ``%turnmarket_shop_name/<shopName>%`` -  Replace ``<shopName>`` by your custom shop name. Return the custom display name of a shop.
+* ``%turnmarket_shop_time-left/<shopName>%`` -  Replace ``<shopName>`` by your custom shop name. Return the timeleft before next rotation
+* ``%turnmarket_shop_next-rotate/<shopName>%`` -  Replace ``<shopName>`` by your custom shop name. Return the time of the next rotation
 
 ## Contributing
 
