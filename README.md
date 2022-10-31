@@ -118,7 +118,7 @@ To purchase the last plugin version, you can click on one of the links below
 
 ## Autor
 The only autor of TurnMarket:
-* **[@SYRQL](https://github.com/Syrql_)**
+* **[@SYRQL](https://github.com/Syrql)**
 
 
 ## Contact
