@@ -31,11 +31,26 @@ How to use [PlaceHolderAPI](https://www.spigotmc.org/resources/placeholderapi.62
 
 ## Config
 
-> * You can manually add in ``config.yml`` file multiple addons for use better the plugin.
-> 
-**Shop Inventory**
+* You can manually add in ``config.yml`` file multiple addons for use better the plugin.
 
-> * ``` COMMAND ``` - 
+## **Shop & Inventory**
+
+### Default config keys
+
+> * ``` TURN-TIME ``` - Scheduler feature (Add in your config multiple rotate time. _For example:_ ``"08:00"``)
+> * ``` MAX-ITEMS ``` - Max display items on inventory (_Default:_ ``5``)
+> * ``` NAME ``` - Shop name (_Example:_ ``"farm"``)
+> * ``` DISPLAY-NAME ``` - Shop display name (_Example:_ ``"&7[&e⛃&7] &e&lFarm"``)
+> * ``` SIZE ``` - Inventory size (_Default:_ ``5``)
+> * ``` ALLOWED-SLOT ``` - Allowed slot in inventory
+> * Example
+> ```ALLOWED-SLOT:
+      - 20
+      - 21
+      - 22
+      - 23
+      - 24
+      - 25
 
 ## Purchase
 To purchase the last plugin version, you can click on one of the links below
@@ -45,7 +60,6 @@ To purchase the last plugin version, you can click on one of the links below
 * **[GroupeZ](https://groupez.dev/resources)**
 
 **🌟 Last version :** 0.0.1
-
 
 ## Autor
 The only autor of TurnMarket:
