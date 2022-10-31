@@ -82,7 +82,6 @@ How to use [PlaceHolderAPI](https://www.spigotmc.org/resources/placeholderapi.62
       MATERIAL-ID: 10
       SLOT: 15
       TYPE: "I_ADD"
-
 ```
 ## Decrement Items
 
@@ -95,7 +94,6 @@ How to use [PlaceHolderAPI](https://www.spigotmc.org/resources/placeholderapi.62
       MATERIAL-ID: 1
       SLOT: 29
       TYPE: "D_SET"
-      
 ```
 
 ### Config keys
